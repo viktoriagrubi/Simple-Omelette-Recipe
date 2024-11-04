@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Young Serif;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.recipe-card {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 650px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 45px;
+  padding: 20px;
+  margin-bottom: -25px;
+}
+
+.recipe-content {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 10px;
+  padding-top: 1px;
+}
+
+.description {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 25px;
+}
+
+.prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep-time h2 {
+  font-size: 16px;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+  font-style: Arial;
+}
+
+.prep-time p {
+  margin-bottom: 5px;
+}
+
+.prep-time p strong {
+  color: hsl(30, 10%, 34%);
+}
+
+.prep-time ul {
+  padding: 5px;
+}
+
+.prep-time li {
+  padding: 5px;
+  margin-left: 15px;
+  color: hsl(30, 10%, 34%);
+}
+
+.prep-time,
+.ingredients-list,
+.instructions-list,
+.nutrition-table {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+
+.instructions-list ol {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients-list,
+.instructions-list {
+  padding-left: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.ingredients-list li,
+.instructions-list li {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 10px;
+}
+
+.instructions-list ol ::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions-list li {
+  margin-bottom: 15px;
+}
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 10px 15px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table td {
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-table th {
+  color: hsl(14, 45%, 36%);
+}
+.nutrition-table th {
+  text-align: left;
+  font-weight: bold;
+  width: 50%;
+}
